@@ -126,6 +126,19 @@ To see what cookies are stored, use the `\cookies` command.
 
 To enable SSL, pass the `--ssl` flag.
 
+### changing hosts #
+
+To change hosts, use the `host` command:
+
+    http://127.0.0.1:80/> host example.org
+    http://example.org:80/>
+
+You can also use `http://` and `https://` prefixes:
+
+    http://example.org:80/> host http://example.com
+    http://example.com:80/> host https://example.org
+    https://example.org:443/>
+
 ### quitting #
 
     Ctrl-D
